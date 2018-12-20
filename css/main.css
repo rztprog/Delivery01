@@ -1,4 +1,7 @@
-
+*{
+	margin: Opx;
+	padding: Opx;
+}
 
 header{
 	background-color: #330136;
