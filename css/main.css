@@ -1,12 +1,81 @@
+/*********************/
+/***** CSS RESET *****/
+/*********************/
 *{
 	margin: 0px;
 	padding: 0px;
 }
 
+/******************/
+/***** HEADER *****/
+/******************/
 header{
 	background-color: #330136;
 }
 
-nav > ul > li{
+nav li{
+	display: inline-block;
+}
 
+nav a{
+	padding: 1em;
+	/* overflow: auto; */
+	font-family: "Arial Black", Gadget, sans-serif;
+	background-color: #5E1742;
+	text-decoration: none;
+	color: white;
+}
+
+nav{
+	/* background-color: #fff000; */
+	margin-left: 3px;
+	padding-bottom: 1.2em;
+}
+
+#logo{
+	display: inline-block;
+	margin: 3px 3px 16px 3px;
+	width: 10%;
+}
+
+#login{
+	position: absolute;
+	/* top: 115px; */
+	/* right: 0px; */
+	right: 3px;
+	transform: translate(0%, 0%);
+}
+
+/******************/
+/*****  BODY  *****/
+/******************/
+body{
+	background-color: #C9463D;
+}
+
+#aBlock{
+	padding: 100px;
+	text-align: center;
+}
+
+#bBlock{
+	background-color: #962E40;
+	padding: 50px;
+}
+
+#cBlock{
+	background-color: #ff00ff;
+	padding: 50px;
+}
+
+h1{
+	color: white;
+}
+
+/******************/
+/***** FOOTER *****/
+/******************/
+
+footer{
+	background-color: #330136;
 }
