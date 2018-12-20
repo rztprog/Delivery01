@@ -14,9 +14,9 @@ Color uses:
 #FF5E35
 ```
 
-## Thanks to
+## Specials thanks to
 
--> color.adobe.com
--> pencil.evolus.vn
--> github.com
+* color.adobe.com
+* pencil.evolus.vn
+* github.com
 
