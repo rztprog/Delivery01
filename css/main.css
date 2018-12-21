@@ -13,8 +13,16 @@ header{
 	background-color: #330136;
 }
 
+li{
+	list-style: none;
+}
+
 nav li{
 	display: inline-block;
+}
+
+nav a:hover{
+	background-color: #962E40;
 }
 
 nav a{
@@ -27,18 +35,17 @@ nav a{
 }
 
 nav{
-	/* background-color: #fff000; */
 	margin-left: 3px;
 	padding-bottom: 1.2em;
 }
 
 #logo{
 	display: inline-block;
-	margin: 3px 3px 16px 3px;
 	width: 10%;
+	margin: 3px 3px 16px 3px;
 }
 
-#login{
+#loginButton{
 	position: absolute;
 	/* top: 115px; */
 	/* right: 0px; */
@@ -53,23 +60,50 @@ body{
 	background-color: #C9463D;
 }
 
+h1{
+	color: white;
+}
+
 #aBlock{
 	padding: 100px;
 	text-align: center;
 }
 
-#bBlock{
+.bBlock{
 	background-color: #962E40;
 	padding: 50px;
 }
 
-#cBlock{
-	background-color: #ff00ff;
+.cBlock{
+	background-color: #5E1742;
 	padding: 50px;
+	color: white;
+	font-weight: 3em;
 }
 
-h1{
+.orangeBlock{
+	position: relative;
+	left: 0%;
+	background-color: #FF5E35;
+}
+
+#bottomButton{
+	/* display: inline-block; */
 	color: white;
+	/* background-color: #5E1742; */
+	height: px;
+
+}
+
+#callButton{
+	background-color: #962E40;
+}
+
+#emailButton{
+	position: absolute;
+	right: 5px;
+	transform: translate(0%, 0%);
+	background-color: #C94FFF;
 }
 
 /******************/
@@ -78,4 +112,5 @@ h1{
 
 footer{
 	background-color: #330136;
+	height: 200px;
 }
