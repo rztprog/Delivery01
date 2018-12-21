@@ -9,6 +9,10 @@
 /******************/
 /***** HEADER *****/
 /******************/
+body{
+	background-color: #C9463D;
+}
+
 header{
 	background-color: #330136;
 }
@@ -56,12 +60,10 @@ nav{
 /******************/
 /*****  BODY  *****/
 /******************/
-body{
-	background-color: #C9463D;
-}
 
 h1{
 	color: white;
+	font-size: 3em;
 }
 
 #aBlock{
@@ -69,42 +71,66 @@ h1{
 	text-align: center;
 }
 
-.bBlock{
-	background-color: #962E40;
-	padding: 50px;
-}
 
-.cBlock{
+/****** interBlock ******/
+.interBlock{
+	color: white;
+	font-size: 1.5em;
 	background-color: #5E1742;
-	padding: 50px;
-	color: white;
-	font-weight: 3em;
+	padding: 100px 10px 100px;
 }
 
+#eBlock{
+	text-align: right;
+}
+/****** interBlock ******/
+
+
+/****** orangeBlock  ******/
 .orangeBlock{
-	position: relative;
-	left: 0%;
 	background-color: #FF5E35;
+	padding: 40px;
 }
 
-#bottomButton{
-	/* display: inline-block; */
-	color: white;
-	/* background-color: #5E1742; */
-	height: px;
-
-}
-
-#callButton{
+.quoteBlock{
 	background-color: #962E40;
 }
 
-#emailButton{
-	position: absolute;
-	right: 5px;
-	transform: translate(0%, 0%);
-	background-color: #C94FFF;
+#bBlock{
+	/* padding: 0px 30% 0px 0px; */
+	padding-right: 30%;
 }
+
+#dBlock{
+	text-align: right;
+	/* padding: 0px 0px 0px 30%; */
+	padding-left: 30%;
+}
+/****** orangeBlock  ******/
+
+
+/****** bottomButton  ******/
+#bottomButton a{
+	/* display: inline-block; */
+	width: 50%;
+	position: absolute;
+	color: white;
+	transform: translate(0%, O%);
+	height: 50px;
+	text-align: center;
+}
+
+#callButton a{
+	left: 0px;
+	background-color: #962E40;
+}
+
+#emailButton a{
+	right: 0px;
+	background-color: #C9463D;
+}
+/****** bottomButton  ******/
+
 
 /******************/
 /***** FOOTER *****/
