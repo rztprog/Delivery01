@@ -96,7 +96,32 @@ h2{
 	
 }
 
-#formBlock{i	
+input[type=text]:focus {
+	border: 3px solid #555;
+}
+
+input[type=text] {
+ 	background-color: #white;
+	color: black;
+}
+
+table{
+	width: 100%;
+	/* height: 100%; */
+	background-color: lightgrey;
+	font-size: 20px;
+	text-align: center;
+}
+
+.grey{
+	background-color: grey;
+}
+
+th{
+	background-color: grey;
+}
+
+#formBlock{	
 	/* color: white; */
 	display: block;
 	padding: 10px;
