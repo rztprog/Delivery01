@@ -72,6 +72,43 @@ h2{
 	font-size: 2.5em;
 }
 
+/* contactpage */
+
+#titleTop{
+	color: white;
+	font-size: 2em;
+	padding-left: 5px;
+}
+
+#whiteBlock{
+	display: inline;
+	
+}
+
+#topBlock{
+	display: block;
+	padding: 10px;
+	margin: 40px;
+	/* position: relative; */
+	/* transform:  translate(x, y);e; */
+	background-color: #FFF;
+	border: 20px solid #330136;
+	
+}
+
+#formBlock{i	
+	/* color: white; */
+	display: block;
+	padding: 10px;
+	margin: 40px;
+	/* position: relative; */
+	/* transform:  translate(x, y);e; */
+	background-color: #FFF;
+	border: 20px solid #330136;
+}
+
+/* contactpage */
+
 #aBlock{
 	color: #C9463D;
 	text-shadow: 0.125rem 0.125rem #000;
