@@ -1,0 +1,59 @@
+Questions Balises CSS
+• Que signifie "CSS" ?
+- Cascading style sheet
+
+• Que sont les IDs et les classes et en quoi diffèrent-ils ? Quels sont leur
+symboles ?
+- Les IDs (#id) sont des attributs unique
+- LEs class (.class) sont des attributs multiple
+
+• Qu'est-ce qu'une propriété en CSS ?
+- Un attribu de style
+
+• Qu'est-ce qu'un sélecteur et à quoi il sert ?
+- Le selecteur pointe sur un élément, une class ou un ID
+
+• Pourquoi est-il recommandé de ne pas utiliser de sélécteur ID?
+- car on peut vite être amené à avoir un nombre incalculable d'ID
+
+• Quelle est la différence entre les pixels et les ems ?
+Les pixels sont calculé en fonction de la résolution de l'écran et les ems sont égal au pixel, si le font-size est défini à 16px (par défaut) il est de 1em, donc 2em = 32px etc..
+
+• Quelle est la différence entre les attributs block, inline et inline-block. Donnez
+1 exemple d'élément pour block et inline
+-block = en block a la ligne
+-inline-block = en block sur la même ligne
+-inline = sur la même ligne
+
+• De combien de manière différentes pouvons-nous définir une couleur à un
+attribut "Color" ?
+-6 (couleur prédéfini, héxadécimal, rgb, rgba, hsl, hsla)
+
+• Quelle est la différence entre margin et padding ?
+- Le margin est en dehors de l'élément
+- Le padding est dans l'élément
+
+• Qu'est-ce qu'un first child et à quoi il sert ?
+- Pour ciblé le premier enfant du sélécteur
+
+• Quel attribut permet de déplacer un élément dans une page ?
+- position;
+
+• Quels sont les 3 méthodes pour inclure du CSS dans une page web ?
+- par balise link
+- par balise style (direct)
+- par balise style dans l'élément
+
+
+• Qu'est-ce qu'un CSS "minified" (minifié en fr), dans quel cas l'utilise-t-on et pourquoi ?
+- pour avoir du code propre et allégé et eviter les erreurs
+
+• Lorsqu'on duplique 2 selecteurs, mais avec des valeures différentes, laquelle sera prise en compte ? Par exemple : p { color:red;} et juste en dessous p {color:green;}
+- le green car c'est le but même de la cascade, toujours prendre le dernier
+
+• Doit-on spécifier l'unité lorsqu'on applique une valeur de zéro à une
+propriété ?
+- Pas obligatoire
+
+• A quoi servent les médias queries?
+- A divisier sont code pour les différents écran (du CSS dans du CSS), on apelle ça la responsive

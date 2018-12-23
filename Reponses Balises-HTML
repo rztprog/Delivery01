@@ -1,0 +1,53 @@
+Questions Balises HTML
+
+• Quelle information indique que le fichier est du type HTML5?
+-le doctype en haut du fichier <!DOCTYPE html>
+
+• Qu'est-ce que MAMA ? Et quelle incidence sur le HTML 5 ?
+- Pour crée un portfolio responsive
+
+• Quel est le rôle de l'HTML dans une page web ?
+- De mettre du code "brut" dans l'ordre
+
+• Quel est le rôle du CSS dans une page web ?
+- De stylisé des elements dans la page (changer le BG, la taille du font, faire des anim etc..) 
+
+• Quel est le rôle du Javascript dans une page web ?
+- Afficher des scripts (compteur de vue etc..)
+
+• Pourquoi sépare-t-on le HTML et le CSS ?
+- Car avec plusieurs milier de page sur un même site, on a qu'a éditer le CSS pour qu'il s'applique à toutes les pages auquel on aura lié le CSS
+
+• Où place-t-on les balises script pour faire le lien entre un fichier js et le fichier html ?
+- A la fin du fichier, comme ça ils seront chargé en dernier
+
+• Comment lier une feuille de style à une page HTML ?
+- avec une balise link <link rel="stylesheet" type="text/css" href="lien"> 
+
+• Est-ce qu'une section peut contenir plusieurs articles ?
+- Oui
+
+• Est-ce qu'un article peut contenir plusieurs sections ?
+- Oui
+
+• Quel est la différence entre les éléments, les tags et les attributs en HTML ?
+Les tags ce sont les "balise" par exemple un <p></p> l'attribut c'est une "options" par exemple <p class="test"><p> et l'élément cest ce qui se trouver à l'interieur des balises par exemple le texte "helloworld" avec <p class="test">helloworld</p>
+
+
+• A quoi servent les divs ?
+- A diviser les elements de la page en plusieurs "parties" et leur appliquer ensuite des ID et des CLASS pour les mettres en formes:w
+
+• Quelle balise utilise-t-on pour créer un pied de page ?
+- le footer <footer></footer>
+
+• Qu'est-ce que l'attribut "alt"?
+- Il se déclarera quand la valeur par défaut aura "échoué" ou directement au survol de l'élément (il est utile particulierement pour les personnes handicapé, comme par exemple les aveugles)
+
+• Comment afficher correctement les accents dans une page en français ?
+- en utilisant la balise meta et l'atribut charset avec comme valeur UTF-8
+
+• Comment insérer un caractère spécial (ex: "<" ou ">") en HTML afin qu'il soit affiché dans le texte et non pas interprété par le navigateur ?
+- Avec un antislash où "backslash"
+
+• Comment insérer des commentaires dans le code HTML ?
+- avec le code <!-- commentaire -->
