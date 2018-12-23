@@ -112,15 +112,17 @@ h1{
 /****** bottomButton  ******/
 #bottomButton a{
 	/* display: inline-block; */
+	/* height: 50px; */
 	width: 50%;
 	position: absolute;
 	color: white;
-	transform: translate(0%, O%);
-	height: 50px;
+	transform: translate(0%, -20%);
 	text-align: center;
+	font-size: 1.5em;
 }
 
 #callButton a{
+	color: black;
 	left: 0px;
 	background-color: #962E40;
 }
@@ -128,6 +130,10 @@ h1{
 #emailButton a{
 	right: 0px;
 	background-color: #C9463D;
+}
+
+#bottomButton a:hover{
+	background-color: #FF5E35; ;
 }
 /****** bottomButton  ******/
 
@@ -138,5 +144,5 @@ h1{
 
 footer{
 	background-color: #330136;
-	height: 200px;
+	height: 300px;
 }
