@@ -113,6 +113,8 @@ h2{
 }
 
 #bBlock{
+	text-shadow: 0.050rem 0.050rem #fff;
+	color: #000;
 	/* padding: 0px 30% 0px 0px; */
 	padding-right: 30%;
 }
