@@ -34,11 +34,13 @@
 		</div>
 		<div id="formBlock">
 			<form id="form1" action="https://rickrolled.fr" autocomplete="on">
-				<div class="whiteblock">
-					<input type="text" id="name" name="user_name" size="30" placeholder="nom" required autofocus />
-				</div>
-				<div class="whiteBlock">
-					<input type="email" id="mail" name="user_mail" size="30" placeholder="email@adresse.fr" required />
+				<div id="whiteBlock">
+					<div>
+						<input type="text" id="name" name="user_name" size="30" placeholder="nom" required autofocus />
+					</div>
+					<div>
+						<input type="email" id="mail" name="user_mail" size="30" placeholder="email@adresse.fr" required />
+					</div>
 				</div>
 				<div>
 					<input type="number" name="num" minlength="10" maxlength="10" size="30" placeholder="0612345678" />
@@ -47,10 +49,10 @@
 					<textarea id="msg" name="user_message" rows="10" cols="60" placeholder="Ecrivez votre message ici." required></textarea>
 				</div>
 				<div>
-					<input type="checkbox" name="mailinglist" value="maillist">J'accepte de recevoir des publicitées et des cookies.
-					</input>
-					<input type="checkbox" name="overlegal" value="age">J'ai plus de 18 ans.
-					</input>
+					<!-- <input type="checkbox" name="mailinglist" value="maillist">J'accepte de recevoir des publicitées et des cookies. -->
+					<!-- </input> -->
+					<!-- <input type="checkbox" name="overlegal" value="age">J'ai plus de 18 ans. -->
+					<!-- </input> -->
 				</div>
 				<div>
 					<input type="submit" value="Envoyer" />

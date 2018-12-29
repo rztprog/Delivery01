@@ -6,7 +6,6 @@
 	padding: 0px;
 	font-family: "Arial", Gadget, sans-serif;
 }
-
 /******************/
 /***** HEADER *****/
 /******************/
@@ -16,8 +15,7 @@ body{
 
 header{
 	background-color: #330136;
-	padding-bottom: 1.2em;	
-	/* width: 1wv; */
+	padding-bottom: 1.2em;
 }
 
 nav li{
@@ -40,11 +38,6 @@ nav a{
 	color: white;
 }
 
-/* nav{ */
-	/* margin-left: 3px; */
-	/* padding-bottom: 1.2em; */
-/* } */
-
 #logo{
 	display: inline-block;
 	width: 15%;
@@ -61,6 +54,146 @@ nav a{
 /*****  BODY  *****/
 /******************/
 
+/* Top of all page */
+#titleTop{
+	color: white;
+	font-size: 2em;
+	padding: 0.9375em 0.9375em 0 0.9375em;
+}
+/* Top of all page */
+
+.big{
+	font-size: 1.5em;
+}
+
+/* CONTACT PAGE */
+#topBlock, #formBlock{
+	display: block;
+	padding: 10px;
+	margin: 40px;
+	background-color: #FFF;
+	border: 20px solid #330136;
+	border-radius: 10px;
+}
+
+
+input, textarea{
+	margin-top: 20px; 
+}
+
+input[type], select, textarea {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #bbb;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+#whiteBlock input{
+	display: inline-block;
+	width: 50%;
+}
+
+input[type=submit], input[type=reset]{
+	font-size: 30px;
+	color: #fff;
+	background-color: #330136;
+}
+
+input[type=reset]{
+	color: black;
+	background-color: #ccc;
+}
+
+/* CONTACT PAGE */
+
+
+/* LOGIN PAGE */
+h3{
+	font-size: 2em;
+	padding: 20px;
+}
+
+#loginForm{
+	display: block;
+	padding: 10px;
+	margin: 40px;
+	/* position: relative; */
+	/* transform:  translate(x, y);e; */
+	background-color: #330136;
+	text-align: center;
+	color: white;
+}
+
+#loginForm input{
+	display: block;
+	position: relative;
+	transform: translate(170%, 0px);
+	text-align: center;
+	margin: 10px;
+}
+
+#connectButton{
+	position: relative;
+	transform: translate(170%, 0);
+}
+
+#recover a{
+	text-decoration: none;
+	display: block;
+}
+
+#loginForm input[type=text] {
+  	border: 2px solid black;
+	border-radius: 4px;
+  	/* width: 100%; */
+	padding-top: 12px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+#loginForm input[type=submit] {
+	border: 2px solid black;
+	border-radius: 4px;
+	/* width: 100%; */
+	padding: 20px 50px 20px 50px;
+	margin: 20px 0;
+	box-sizing: border-box;
+}
+
+#loginForm input[type=password] {
+	border: 2px solid black;
+	border-radius: 4px;
+	/* width: 100%; */
+	padding-top: 12px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+/* LOGIN PAGE */
+
+
+/* TARIFS PAGE */
+table{
+	width: 100%;
+	/* height: 100%; */
+	background-color: lightgrey;
+	font-size: 20px;
+	text-align: center;
+}
+
+.grey{
+	background-color: grey;
+}
+
+th{
+	background-color: grey;
+}
+/* TARIFS PAGE */
+
+
+/* INDEX PAGE */
 h1{
 	/* margin: 0px 0px 0px 0px; */
 	color: #FF5E35;
@@ -82,138 +215,6 @@ h2{
 	background-position: 50%;
 	background-repeat: no-repeat;
 }
-
-/* Top of all page */
-
-#titleTop{
-	color: white;
-	font-size: 2em;
-	padding: 0.9375em;
-}
-
-/* Top of all page */
-
-
-/* CONTACT PAGE */
-.big{
-	font-size: 1.5em;
-}
-
-#topBlock, #formBlock{
-	display: block;
-	padding: 10px;
-	margin: 40px;
-	background-color: #FFF;
-	border: 20px solid #330136;
-}
-
-#loginForm{
-	display: block;
-	padding: 10px;
-	margin: 40px;
-	/* position: relative; */
-	/* transform:  translate(x, y);e; */
-	background-color: #330136;
-	text-align: center;
-	color: white;
-}
-
-h3{
-	font-size: 2em;
-	padding: 20px;
-}
-
-/* #whiteBlock{ */
-/* 	display: inline-block; */
-/* } */
-
-input{
-	margin-top: 20px; 
-}
-
-textarea{
-	margin-top: 20px;
-}
-
-#loginForm input{
-	display: block;
-	position: relative;
-	transform: translate(170%, 0px);
-	text-align: center;
-	margin: 10px;
-	/* right: 50%; */
-}
-
-#connectButton{
-	position: relative;
-	transform: translate(170%, 0);
-}
-
-#recover a{
-	text-decoration: none;
-	display: block;
-}
-
-/* input[type=text]:focus { */
-/* 	border: 3px solid #555; */
-/* } */
-
-#loginForm input[type=text] {
-  border: 2px solid black;
-  border-radius: 4px;
-  /* width: 100%; */
-  padding-top: 12px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-
-#loginForm input[type=submit] {
-  border: 2px solid black;
-  border-radius: 4px;
-  /* width: 100%; */
-  padding: 20px 50px 20px 50px;
-  margin: 20px 0;
-  box-sizing: border-box;
-}
-
-#loginForm input[type=password] {
-  border: 2px solid black;
-  border-radius: 4px;
-  /* width: 100%; */
-  padding-top: 12px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-
-/* input[type=text] { */
-/*  	background-color: #white; */
-/* 	color: black; */
-/* } */
-
-/* CONTACT PAGE */
-
-
-/* TARIFS PAGE */
-table{
-	width: 100%;
-	/* height: 100%; */
-	background-color: lightgrey;
-	font-size: 20px;
-	text-align: center;
-}
-
-.grey{
-	background-color: grey;
-}
-
-th{
-	background-color: grey;
-}
-
-/* TARIFS PAGE */
-
-
-/* INDEX PAGE */
 
 /****** interBlock ******/
 .interBlock{
@@ -321,7 +322,6 @@ footer{
 	background-color: #FF5E35;
 	text-shadow: 2px 2px 3px #5E1742;
 }
-
 /****** bottomButton  ******/
 
 .footerBlock > div{
@@ -356,8 +356,6 @@ footer{
 }
 
 .listTitle{
-	/* position: relative; */
-	/* left: 100px; */
 	text-align: center;
 }
 
@@ -379,7 +377,3 @@ footer{
 	text-align: center;
 	/* bottom: 0; */
 }
-
-/* #social p{ */
-/* 	padding-top: 10px; */
-/* } */
