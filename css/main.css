@@ -148,13 +148,20 @@ nav a:active{
 	margin-top: 30px;
 	width: 50%;
 	padding: 12px 20px;
-	border: 1px solid #bbb;
+	border: 1px solid #000;
 	border-radius: 0.25em;
 	box-sizing: border-box;
+	font-size: 1em;
 }
 
 #loginForm input[type=submit] {
 	margin-top: 30px;
+	background-color: #962E40;
+	color: #fff;
+}
+
+#loginForm input[type=submit]:hover {
+	background-color: #C9463D;
 }
 
 #recover{
@@ -162,9 +169,14 @@ nav a:active{
 }
 
 #recover a{
+	color: #962E40;
 	margin-top: 5px;
 	text-decoration: none;
 	display: block;
+}
+
+#recover a:hover{
+	color: #C9463D;
 }
 /* LOGIN PAGE */
 
