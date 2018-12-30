@@ -1,4 +1,4 @@
-![sharkbiceps](./img/shark.png =250x250)
+<img src="./img/shark.png" alt="shark with biceps" width="250" />
 
 # Delivery01 | Sports coach
 
