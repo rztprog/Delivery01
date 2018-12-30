@@ -25,6 +25,7 @@ nav li{
 
 nav a:hover{
 	background-color: #962E40;
+	outline: 0.0625em solid #FF5E35;
 }
 
 nav a{
@@ -37,7 +38,8 @@ nav a{
 }
 
 nav a:active{
-	border-bottom: 0.125em solid #FF5E35;
+	border-bottom: 0.1250em solid #FF5E35;
+	color: #FF5E35;
 }
 
 #logo{
