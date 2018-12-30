@@ -2,8 +2,8 @@
 /***** CSS RESET *****/
 /*********************/
 *{
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	font-family: "Arial", Gadget, sans-serif;
 }
 
@@ -17,6 +17,10 @@ body{
 header{
 	background-color: #330136;
 	padding-bottom: 1.2em;
+}
+
+nav{
+	width: 100%;
 }
 
 nav li{
@@ -68,10 +72,10 @@ nav a{
 #topBlock, #formBlock{
 	display: block;
 	padding: 10px;
-	margin: 40px;
+	margin: 2.5em 1.25em 2.5em 1.25em;
 	background-color: #FFF;
-	border: 20px solid #330136;
-	border-radius: 10px;
+	border: 1.25em solid #330136;
+	border-radius: 0.625em;
 }
 
 
@@ -85,7 +89,7 @@ nav a{
 	margin: 8px 0;
 	display: inline-block;
 	border: 1px solid #bbb;
-	border-radius: 4px;
+	border-radius: 0.25em;
 	box-sizing: border-box;
 }
 
@@ -95,7 +99,7 @@ nav a{
 }
 
 #form1 input[type=submit], input[type=reset]{
-	font-size: 30px;
+	font-size: 1.875em;
 	color: #fff;
 	background-color: #330136;
 }
@@ -113,11 +117,12 @@ nav a{
 	display: block;
 	padding: 10px;
 	margin: 40px;
-	border-radius: 4px;
+	border-radius: 0.25em;
+	border: 0.3125em solid #fff; 
 	/* position: relative; */
 	background-color: #330136;
 	text-align: center;
-	color: white;
+	color: #fff;
 }
 
 #loginForm input{
@@ -134,7 +139,7 @@ nav a{
 	width: 50%;
 	padding: 12px 20px;
 	border: 1px solid #bbb;
-	border-radius: 4px;
+	border-radius: 0.25em;
 	box-sizing: border-box;
 }
 
@@ -159,17 +164,14 @@ table{
 	width: 100%;
 	/* height: 100%; */
 	background-color: lightgrey;
-	font-size: 20px;
+	font-size: 1.25em;
 	text-align: center;
 }
 
-.grey{
+.grey, th{
 	background-color: grey;
 }
 
-th{
-	background-color: grey;
-}
 /* TARIFS PAGE */
 
 
@@ -187,7 +189,7 @@ h2{
 #aBlock{
 	color: #C9463D;
 	text-shadow: 0.125rem 0.125rem #000;
-	padding: 12em 50px 12em 50px;
+	padding: 12em 3.125em 12em 3.125em;
 	/* width: 100%; */
 	text-align: center;
 	background-image: url("../img/crossfit1.jpg");
@@ -224,12 +226,12 @@ h2{
 }
 
 #bBlock{
-	text-shadow: 0.1rem 0.1rem 2px #fff;
+	text-shadow: 0.1rem 0.1rem 0.125rem #fff;
 	padding-right: 35%;
 }
 
 #dBlock{
-	text-shadow: 0.1rem 0.1rem 2px #000;
+	text-shadow: 0.1rem 0.1rem 0.125rem #000;
 	color: white;
 	text-align: right;
 	padding-left: 35%;
@@ -267,7 +269,7 @@ h2{
 footer{
 	display: block;
 	background-color: #330136;
-	height: 480px;
+	height: 30rem;
 	color: white;
 }
 
@@ -278,10 +280,10 @@ footer{
 	/* margin-bottom: 3em; */
 	display: inline-block;
 	margin: 0;
-	padding: 1.2em 0 1.2em 0;
+	padding: 1.2em 0em 1.2em 0em;
 	width: 50%;
 	position: absolute;
-	transform: translate(0%, -1em);
+	transform: translate(0em, -1em);
 	text-align: center;
 	font-size: 1.5em;
 }
@@ -300,7 +302,7 @@ footer{
 
 #bottomButton a:hover{
 	background-color: #FF5E35;
-	text-shadow: 2px 2px 3px #5E1742;
+	text-shadow: 0.125em 0.125em 0.1875em #5E1742;
 }
 /****** bottomButton  ******/
 
@@ -309,8 +311,8 @@ footer{
 	display: inline-block;
 	margin: 5px;
 	padding: 5px;
-	width: 300px;
-	height: 300px;
+	width: 18.75rem;
+	height: 18.75rem;
 }
 
 #navig, #social{
@@ -353,7 +355,7 @@ footer{
 	/* transform: translate(50%, 0%); */
 	/* bottom: 0%; */
 	position: relative;
-	top: 120px;
+	top: 7.5rem;
 	text-align: center;
 	/* bottom: 0; */
 }
