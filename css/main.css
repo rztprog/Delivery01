@@ -192,7 +192,7 @@ h2{
 	padding: 12em 50px 12em 50px;
 	/* width: 100%; */
 	text-align: center;
-	background-image: url("/img/crossfit1.jpg");
+	background-image: url("../img/crossfit1.jpg");
 	background-size: 100%;
 	background-position: 50%;
 	background-repeat: no-repeat;
