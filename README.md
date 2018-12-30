@@ -1,4 +1,4 @@
-![shark with biceps](./img/shark.png =250x)
+![sharkbiceps](./img/shark.png =250x250)
 
 # Delivery01 | Sports coach
 
