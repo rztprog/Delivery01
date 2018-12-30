@@ -77,11 +77,11 @@ nav a{
 }
 
 
-input, textarea{
+#form1 input, textarea{
 	margin-top: 20px; 
 }
 
-input[type], select, textarea {
+#form1 input[type], select, textarea{
 	width: 100%;
 	padding: 12px 20px;
 	margin: 8px 0;
@@ -96,13 +96,13 @@ input[type], select, textarea {
 	width: 50%;
 }
 
-input[type=submit], input[type=reset]{
+#form1 input[type=submit], input[type=reset]{
 	font-size: 30px;
 	color: #fff;
 	background-color: #330136;
 }
 
-input[type=reset]{
+#form1 input[type=reset]{
 	color: black;
 	background-color: #ccc;
 }
@@ -111,17 +111,12 @@ input[type=reset]{
 
 
 /* LOGIN PAGE */
-h3{
-	font-size: 2em;
-	padding: 20px;
-}
-
 #loginForm{
 	display: block;
 	padding: 10px;
 	margin: 40px;
+	border-radius: 4px;
 	/* position: relative; */
-	/* transform:  translate(x, y);e; */
 	background-color: #330136;
 	text-align: center;
 	color: white;
@@ -130,46 +125,33 @@ h3{
 #loginForm input{
 	display: block;
 	position: relative;
-	transform: translate(170%, 0px);
+	transform: translate(-50%, 0%);
+	left: 50%;
 	text-align: center;
 	margin: 10px;
 }
 
-#connectButton{
-	position: relative;
-	transform: translate(170%, 0);
-}
-
-#recover a{
-	text-decoration: none;
-	display: block;
-}
-
-#loginForm input[type=text] {
-  	border: 2px solid black;
+#loginForm input[type=text], input[type=password], input[type=submit]{
+	margin-top: 30px;
+	width: 50%;
+	padding: 12px 20px;
+	border: 1px solid #bbb;
 	border-radius: 4px;
-  	/* width: 100%; */
-	padding-top: 12px;
-	margin: 8px 0;
 	box-sizing: border-box;
 }
 
 #loginForm input[type=submit] {
-	border: 2px solid black;
-	border-radius: 4px;
-	/* width: 100%; */
-	padding: 20px 50px 20px 50px;
-	margin: 20px 0;
-	box-sizing: border-box;
+	margin-top: 30px;
 }
 
-#loginForm input[type=password] {
-	border: 2px solid black;
-	border-radius: 4px;
-	/* width: 100%; */
-	padding-top: 12px;
-	margin: 8px 0;
-	box-sizing: border-box;
+#recover{
+	margin-top: 30px;
+}
+
+#recover a{
+	margin-top: 5px;
+	text-decoration: none;
+	display: block;
 }
 /* LOGIN PAGE */
 
