@@ -1,4 +1,4 @@
-![shark with biceps](https://banner2.kisspng.com/20180606/ozk/kisspng-fitness-centre-physical-fitness-gold-s-gym-exercis-shark-drawing-5b1896d70cad55.6221391815283381350519.jpg)
+![shark with biceps](/img/shark.png =250px)
 
 # Delivery01 | Sports coach
 
@@ -24,3 +24,4 @@ Color uses:
 * Simplon		(My "School")
 * Tastyplacement 	(HTML Click to call link for mobile)
 * W3Schools		(Best tutorials source)
+* Kisspng		(shark logo: https://id.kisspng.com/png-b7wqks/)
