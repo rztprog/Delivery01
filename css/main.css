@@ -19,10 +19,6 @@ header{
 	padding-bottom: 1.2em;
 }
 
-nav{
-	width: 100%;
-}
-
 nav li{
 	display: inline-block;
 }
@@ -38,6 +34,10 @@ nav a{
 	background-color: #5E1742;
 	text-decoration: none;
 	color: white;
+}
+
+nav a:active{
+	border-bottom: 0.125em solid #FF5E35;
 }
 
 #logo{
@@ -88,7 +88,7 @@ nav a{
 	padding: 12px 20px;
 	margin: 8px 0;
 	display: inline-block;
-	border: 1px solid #bbb;
+	border: 1px solid #aaa;
 	border-radius: 0.25em;
 	box-sizing: border-box;
 }
@@ -101,12 +101,20 @@ nav a{
 #form1 input[type=submit], input[type=reset]{
 	font-size: 1.875em;
 	color: #fff;
-	background-color: #330136;
+	background-color: #5E1742;
 }
 
 #form1 input[type=reset]{
 	color: black;
-	background-color: #ccc;
+	background-color: #aaa;
+}
+
+#form1 input[type=submit]:hover{
+	background-color: #962E40;
+}
+
+#form1 input[type=reset]:hover{
+	background-color: #ddd;
 }
 
 /* CONTACT PAGE */
@@ -289,7 +297,7 @@ footer{
 }
 
 #callButton a{
-	color: black;
+	color: #000;
 	background-color: #962E40;
 }
 
