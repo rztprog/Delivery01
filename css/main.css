@@ -1,3 +1,55 @@
+/*************************/
+/***** MEDIA QUERIES *****/
+/*************************/
+
+/***** SMALLER *****/
+@media screen and (max-width: 319px){
+ body{
+	display: none;
+ }
+}
+
+/***** MOBILE *****/
+@media screen and (max-width: 600px) and (min-width: 320px){
+ header{
+	display: inline-block;
+  }
+
+  #logo{
+	display: inherit;
+  	position: relative;
+	/* float: none; */
+	/* width: 50%; */
+	left: 50%;
+	margin: 0;
+	padding: 0;
+	transform: translate(-50%, 0%);
+  }
+
+  #topResize{
+	font-size: 15vw;
+	padding: 0;
+	margin: 0;
+  }
+
+  #aBlock{
+	background-image: url("../img/logo.jpg");
+	background-size: cover;
+	background-position: none;
+	background-repeat: none;
+	/* width: 100%; */
+  }
+
+  #navig{
+  	display: none;
+  }
+}
+
+/***** TABLETS *****/
+@media screen and (max-width: 800px) and (min-width: 600px){
+
+
+}
 /*********************/
 /***** CSS RESET *****/
 /*********************/
@@ -206,6 +258,10 @@ h1{
 
 h2{
 	font-size: 2.5em;
+}
+
+h1, h2{
+	word-wrap: break-word;
 }
 
 #aBlock{
