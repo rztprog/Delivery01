@@ -47,6 +47,33 @@
 
 /***** TABLETS *****/
 @media screen and (max-width: 800px) and (min-width: 600px){
+	/***** HEADER TABLETS *****/
+	body header{
+		padding-bottom: 1em;
+	}
+
+	header #logo{
+		position: relative;
+		transform: translate(10%, 15%);
+	}
+	
+	nav #loginButton{
+		position: relative;
+	}
+
+	header nav{
+		position: absolute;
+		transform: translate(0%, -350%);
+		right: 0;
+	}
+
+	nav li a{
+		padding: 55px 20px 55px 20px;	
+	}
+	/***** HEADER TABLETS *****/
+
+
+	/***** INDEX PAGE TABLETS *****/
 	body #aBlock{
 		background-image: url("../img/fitness2.jpeg");
 		/* position: relative; */
@@ -93,10 +120,14 @@
 		font-size: 2em;
 		padding: 1rem;
 	}
+	/***** INDEX PAGE TABLETS *****/
 
+
+	/***** FOOTER TABLETS *****/
 	ul #callButton, #emailButton{
 		font-size: 1.3em;
 	}
+	/***** FOOTER TABLETS *****/
 }
 
 /*********************/
@@ -152,6 +183,7 @@ nav a:active{
 #loginButton{
 	position: absolute;
 	right: 0.50em;
+	margin-left: 0.50em;
 	/* transform: translate(0%, 0%); */
 }
 
