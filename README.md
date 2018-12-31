@@ -18,10 +18,11 @@ Color uses:
 
 ## Specials thanks to
 
-* color.adobe.com	(Colors Palette)
-* pencil.evolus.vn	(Create Wireframe for free)
-* github.com		(For uploading & GHPages)
+* Color.adobe.com	(Colors Palette)
+* Pencil.evolus.vn	(Create Wireframe for free)
+* Github.com		(For uploading & GHPages)
 * Simplon		(My "School")
 * Tastyplacement 	(HTML Click to call link for mobile)
 * W3Schools		(Best tutorials source)
 * Kisspng		(shark logo: https://id.kisspng.com/png-b7wqks/)
+* Hugofitness-coach-sportif.com		(for inspiration)
