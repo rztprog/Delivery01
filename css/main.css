@@ -93,6 +93,10 @@
 		font-size: 2em;
 		padding: 1rem;
 	}
+
+	ul #callButton, #emailButton{
+		font-size: 1.3em;
+	}
 }
 
 /*********************/
