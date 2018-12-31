@@ -48,8 +48,6 @@
 /***** TABLETS *****/
 @media screen and (max-width: 800px) and (min-width: 600px){
 	body #aBlock{
-		color: #000fff;
-		/* text-shadow: 0 0 transparent; */
 		background-image: url("../img/fitness2.jpeg");
 		/* position: relative; */
 		/* transform: translate(-10%, 0%); */
@@ -58,13 +56,15 @@
 	}
 
 	#titleA{
-		text-shadow: 0 0 transparent;
+		text-shadow: 0 0 10px #FF5E35;
 		color: white;
 	}
 
 	#titleB{
-		text-shadow: 0 0 transparent;
-		color: #000;
+		margin-top: 1em;
+		font-size: 5vw;
+		text-shadow: 0 0 10px #000;
+		color: #FF5E35;
 	}
 
 	div .orangeBlock{
@@ -85,14 +85,14 @@
 	}
 
 	body .interBlock{
-	
+		padding: 3rem 1rem 3rem 1rem;
 	}
 
 
 	.interBlock h2{
 		font-size: 2em;
 		padding: 1rem;
-}
+	}
 }
 
 /*********************/
@@ -441,7 +441,7 @@ footer{
 	/* display: block; */
 	position: absolute;
 	right: 0;
-	background-color: #5E1742;
+	background-color: #C9463D;
 }
 
 #bottomButton a:hover{
