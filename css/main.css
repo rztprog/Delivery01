@@ -69,8 +69,6 @@
 
 	div .orangeBlock{
 		font-size: 1.2em;
-		color: #fff;
-		text-shadow: 0.1em 0.1em 0.1em #000;
 		padding-right: 20%;
 		padding: 1em;
 	}
@@ -344,26 +342,38 @@ h1, h2{
 	font-size: 1.6em;
 	background-color: #FF5E35;
 	padding: 2.0em;
+
 }
 
 .orangeBlock ul{
-	padding-left: 0.625em;
+	padding-left: 0.5em;
 }
 
 .quoteBlock{
 	background-color: #962E40;
 }
 
+#bBlock, #dBlock{
+	color: #fff;
+	text-shadow: 0.1em 0.1em 0.1em #000;
+}
+
 #bBlock{
-	text-shadow: 0.1rem 0.1rem 0.125rem #fff;
-	padding-right: 35%;
+	padding-right: 30%;
 }
 
 #dBlock{
-	text-shadow: 0.1rem 0.1rem 0.125rem #000;
-	color: white;
-	text-align: right;
-	padding-left: 35%;
+	padding-left: 30%;
+}
+
+/* #dBlock .orangeBlock li{ */
+/* 	position: relative; */		
+/* 	right: 0%; */
+/* 	transform: translate(0%, 0%); */
+/* } */
+
+.orangeBlock li{
+	margin-top: 0.3125em;
 }
 
 /* .triangleRight { */
@@ -415,6 +425,11 @@ footer{
 	transform: translate(0em, -1em);
 	text-align: center;
 	font-size: 1.5em;
+	/* outline: 1px solid #fff; */
+}
+
+#bottomButton a:active{
+	border-bottom: none;
 }
 
 #callButton a{
@@ -466,6 +481,11 @@ footer{
 	padding: 5px 0px 5px 0px;
 }
 
+#navig a:hover, #navig a:active{
+	outline: none;
+	border-bottom: none;
+}
+
 .listTitle{
 	text-align: center;
 }
@@ -487,4 +507,4 @@ footer{
 	top: 7.5rem;
 	text-align: center;
 	/* bottom: 0; */
-C
+}
