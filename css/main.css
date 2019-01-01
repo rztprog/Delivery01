@@ -121,6 +121,13 @@
 		padding: 1rem;
 	}
 	/***** INDEX PAGE TABLETS *****/
+	
+
+	/***** CONTACT PAGE TABLETS *****/
+	#formBlock #form1 input[type], select, textarea{
+		padding: 30px 20px;
+	}
+	/***** CONTACT PAGE TABLETS *****/
 
 
 	/***** FOOTER TABLETS *****/
@@ -220,6 +227,7 @@ nav a:active{
 
 #form1 input[type], select, textarea{
 	width: 100%;
+	font-size: 1.25em;
 	padding: 12px 20px;
 	margin: 8px 0;
 	display: inline-block;
@@ -233,7 +241,7 @@ nav a:active{
 	width: 50%;
 }
 
-#form1 input[type=submit], input[type=reset]{
+#form1 input[type=submit], #form1 input[type=reset]{
 	font-size: 1.875em;
 	color: #fff;
 	background-color: #5E1742;
