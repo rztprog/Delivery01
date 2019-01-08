@@ -4,46 +4,84 @@
 
 /***** SMALLER *****/
 @media screen and (max-width: 319px){
- body{
-	display: none;
- }
+	body{
+		display: none;
+	}
 }
 
 /***** MOBILE *****/
-/* @media screen and (max-width: 599px) and (min-width: 320px){ */
-/* 	header{ */
-/* 		display: inline-block; */
-/* 	} */
+@media screen and (max-width: 599px) and (min-width: 320px){
+	header{
+		display: inline-block;
+	}
 
-/* 	#logo{ */
-/* 		display: inherit; */
-/* 		position: relative; */
-/* 		/1* float: none; *1/ */
-/* 		/1* width: 50%; *1/ */
-/* 		left: 50%; */
-/* 		margin: 0; */
-/* 		padding: 0; */
-/* 		transform: translate(-50%, 0%); */
-/* 	} */
+	#logo{
+		display: inherit;
+		position: relative;
+		/* float: none; */
+		/* width: 50%; */
+		left: 50%;
+		margin: 0;
+		padding: 0;
+		transform: translate(-50%, 0%);
+	}
 
-/* 	#topResize{ */
-/* 		text-shadow: 0 0 transparent; */
-/* 		color: #fff; */
-/* 		font-size: 10vw; */
-/* 	} */
+	nav li a{
+		margin: 0;
+		display: block;
+		width: 100%;
+		padding: 1em 1em;
+	}
 
-/*  	#aBlock{ */
-/* 		background-image: url("../img/fitness2.jpeg"); */
-/* 		/1* background-position: 0; *1/ */
-/* 		/1* background-repeat: none; *1/ */
-/* 		text-shadow: 0 0 #fff; */
-/* 		/1* width: 100%; *1/ */
-/* 	} */
+	#navig, #social{
+		display: none;
+	}
 
-/* 	#navig{ */
-/*  		display: none; */
-/* 	} */
-/* } */
+	body > footer{
+		height: 10em;
+	}
+
+	#bottomButton a{
+		padding: 1.2em 0em 1.2em 0em;
+		width: 50%;
+		position: absolute;
+		transform: translate(0em, -1em);
+		text-align: center;
+		font-size: 1.5em;
+		/* outline: 1px solid #fff; */
+	}
+
+	body > .interBlock > h2{
+		font-size: 1.1em;
+		padding: 0;
+	}
+
+	body > #bBlock, body > #dBlock{
+		padding: 0;
+	}
+
+	body #aBlock{
+		background-image: none;
+	}
+
+	body h1{
+		margin-top: ;
+		font-size: 2.2em;
+		color: #330136;
+		text-shadow: 0 0 0.4em #fff;
+	}
+
+	body h2{
+		text-shadow: 0 0 0.4em #000;
+		margin-top: 1em;
+		font-size: 3em;
+		color: white;
+	}
+	
+	body #aBlock{
+		padding: 10vh;
+	}
+}
 
 
 /***** TABLETS *****/
@@ -55,7 +93,6 @@
 /* 		display: none; */
 /* 	} */
 /* } */
-
 /***** BREAKPOINT_1 TABLETS *****/
 
 
@@ -69,7 +106,7 @@
 		position: relative;
 		transform: translate(10%, 15%);
 	}
-	
+
 	nav #loginButton{
 		position: relative;
 	}
@@ -134,7 +171,7 @@
 		padding: 1rem;
 	}
 	/***** INDEX PAGE TABLETS *****/
-	
+
 
 	/***** CONTACT PAGE TABLETS *****/
 	#formBlock #form1 input[type], select, textarea{
